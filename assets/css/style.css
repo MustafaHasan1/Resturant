@@ -1,0 +1,222 @@
+/* Public Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Start Header */
+.Header {
+    background-image: url('../img/shutterstock_277750193 (1).jpg');
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.Navbar {
+    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.nav {
+    float: left;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 100px;
+}
+
+.nav ul li a {
+    color: #a51717;
+    font-size: 20px;
+}
+
+.logo {
+    float: left;
+    width: 40%;
+}
+
+.logo img {
+    width: 30%;
+}
+
+.header-content {
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.header-content h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.header-content p {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.header-content button {
+    padding: 15px 30px;
+}
+
+.header-content .Learn-More {
+    background-color: rgb(193, 171, 132);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.header-content .Learn-More:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.Overlay {
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 100vh;
+}
+
+.Sec-2 {
+    padding-left: 130px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* End Header */
+
+/* Start Sec-2 */
+.Sec-2 {
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.image-section {
+    flex: 1 1 40%;
+    padding-right: 50px;
+}
+
+.sec {
+    flex: 1 1 50%;
+}
+
+.sec h2, .sec h3 {
+    font-family: 'Alegreya', serif;
+}
+
+.sec .header2 {
+    font-size: 36px;
+    color: rgb(37, 48, 72);
+}
+
+.sec .header3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    color: rgb(193, 171, 132);
+}
+
+.sec p {
+    padding: 50px 0;
+}
+
+ul li i {
+    padding-bottom: 30px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+ul li i {
+    font-size: 30px;
+    color: rgb(193, 171, 132);
+    margin-right: 15px;
+}
+
+.icon-list-text {
+    font-size: 20px;
+}
+
+/* End Sec-2 */
+
+/* Start Sec-3 */
+.sec3 {
+    flex: 1 1 45%;
+    padding-left: 50px;
+    padding-bottom: 150px;
+}
+
+.sec3 p, .sec3 h2, .sec3 h3 {
+    padding-bottom: 30px;
+}
+
+.sec3 img {
+    width: 100%;
+    padding-left: 50px;
+}
+
+/* End Sec-3 */
+
+/* Start Sec-4 */
+.sec4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.sec4 .proud {
+    text-align: center;
+}
+
+.sec4 .image {
+    flex: 1 1 30%;
+    position: relative;
+}
+
+.sec4 .image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.sec4 .proud h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(37, 48, 72);
+}
+
+.sec4 .proud p {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+}
+
+/* End Sec-4 */
